@@ -17,13 +17,12 @@ class Solution{
 //using minheap we have to pop n-k times
 //priority_queue<int,vector<int>,greater<int>>p;
 //or
-priority_queue<int,vector<int>,greater<int>>p;
-        int n=nums.size();
-        for(int i=0;i<n;i++){
-            p.push(nums[i]);
-            if(p.size()>k)
-            p.pop();
-        } 
+// priority_queue<int,vector<int>,greater<int>>p;
+//         int n=nums.size();
+//         for(int i=0;i<n;i++){
+//             p.push(nums[i]);
+//             if(p.size()>k)
+//             p.pop();
 int main() {
 	int t;cin>>t;
 	while(t--){
