@@ -20,7 +20,6 @@ using namespace std;
 int main() {
 	 int t;cin>>t;
 	 while(t--){
-	 	vector<int>v1;
 	 	int n;cin>>n;
 	 	vector<int>v;
 	 	for(int i=0;i<n;i++){
